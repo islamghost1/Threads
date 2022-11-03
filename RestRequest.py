@@ -19,7 +19,7 @@ def _POST_(route, dict):
 
                 "username": conf.USERNAME,
                 "password": conf.PASSWORD,
-                "environment": "JPD920",
+                "environment": conf.ENVIRONMENT,
                 "role": "*ALL"
 
             }
