@@ -155,6 +155,8 @@ cython_debug/
 # credentials 
 /conf.py
 conf
+.conf.py
+./conf.py
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
