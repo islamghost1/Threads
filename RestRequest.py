@@ -42,8 +42,10 @@ def _POST_(route, dict):
             print(response.status_code)
             # returning response text and response code
             return [response.text, response.status_code]
-    except requests.exceptions.RequestException as e:
+        else : 
+            return "Route is empty "
+    except Exception as e:
         # return exception
         print(str(e))
         return str(e)
-_POST_("tokenrequest","")        
+_POST_("","")        
